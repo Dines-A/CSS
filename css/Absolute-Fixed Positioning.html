@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute-fixed-position</title>
+    <!--
+        i used this   (margin-left: 25px;) it is working good to me but he said its not working properly
+
+        further clarification refer video
+        z-index ku value starts from 0
+        absolute-position normal positoin mariaa
+        absolute-position->refer video
+    -->
+    <style>
+        body {
+            background-color: black;
+            position: relative;
+            top: 50px;
+        }
+        
+        h1 {
+            background-color: orange;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        h2 {
+            background-color: blue;
+            position: relative;
+        }
+        
+        #pp {
+            position: relative;
+        }
+        
+        h3 {
+            background-color: darkgoldenrod;
+            position: relative;
+        }
+        
+        #ppp {
+            position: relative;
+        }
+        
+        p {
+            background-color: green;
+            text-align: j;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Posiition-and-x-y-index</h1>
+    <h2>
+        folw of html element
+    </h2>
+    <p id="pp">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus obcaecati explicabo hic commodi necessitatibus dolores qui voluptas? Culpa tempore dicta eius fugit laborum voluptas nesciunt, ducimus eum dignissimos repellat? Quia, aliquid?
+        Delectus eum, commodi beatae molestiae officia deleniti nihil est error harum recusandae dolore fugit ipsam in blanditiis sequi quo! A excepturi officiis non nisi nam, eius velit possimus. Possimus voluptate dignissimos ea, illo culpa consequuntur
+        tenetur ad harum delectus nobis minima, natus quidem corporis explicabo veniam ex exercitationem error voluptatibus rerum? Tenetur nihil aliquid placeat quaerat totam optio? Odit beatae assumenda ipsum officiis dicta cupiditate molestias minima
+        dolore repellat eos. Qui dignissimos animi provident ipsa dolor. Sunt, nam asperiores harum tempora quas et commodi pariatur numquam in fugiat. Officia, dolor quae nihil, deserunt hic molestias cumque maiores temporibus quidem quia ratione vero
+        odio perspiciatis nam neque! Ratione ea molestiae placeat nulla omnis illo aspernatur dolor voluptate labore autem!
+
+    </p>
+    <h3>
+        pay close attention to the flow
+    </h3>
+    <p id="ppp">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt et, inventore natus ab deleniti tempore placeat veritatis, atque voluptatem, eum quas expedita quasi libero accusamus mollitia? Rem maxime eos tempora! Excepturi, incidunt? Architecto eveniet
+        enim natus veniam explicabo dolores nihil voluptatum officia recusandae ex nemo commodi, consequuntur fuga debitis soluta aspernatur asperiores quia dignissimos? Eum laboriosam inventore vel eveniet possimus? Rerum sint praesentium eaque quisquam
+        sunt nam? Quidem fugit ratione unde nesciunt. Doloremque delectus, repudiandae molestiae, veritatis tenetur non sapiente nostrum eveniet dolore dignissimos perferendis veniam, necessitatibus harum enim consequatur. Accusantium veritatis sunt fugit
+        laboriosam voluptatum dicta, voluptatem quae, illum velit facilis, et esse sapiente corrupti odio quasi. Fuga quam atque omnis, dolorum provident mollitia hic inventore exercitationem necessitatibus praesentium. Facere, consequatur amet sunt molestiae
+        debitis quis unde culpa, cumque deserunt at soluta veniam voluptatibus quod ut autem consectetur possimus, non ab voluptatum doloremque. Deleniti consequuntur autem at libero aliquam.
+    </p>
+    <h2>
+        folw of html element
+    </h2>
+    <p id="pp">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus obcaecati explicabo hic commodi necessitatibus dolores qui voluptas? Culpa tempore dicta eius fugit laborum voluptas nesciunt, ducimus eum dignissimos repellat? Quia, aliquid?
+        Delectus eum, commodi beatae molestiae officia deleniti nihil est error harum recusandae dolore fugit ipsam in blanditiis sequi quo! A excepturi officiis non nisi nam, eius velit possimus. Possimus voluptate dignissimos ea, illo culpa consequuntur
+        tenetur ad harum delectus nobis minima, natus quidem corporis explicabo veniam ex exercitationem error voluptatibus rerum? Tenetur nihil aliquid placeat quaerat totam optio? Odit beatae assumenda ipsum officiis dicta cupiditate molestias minima
+        dolore repellat eos. Qui dignissimos animi provident ipsa dolor. Sunt, nam asperiores harum tempora quas et commodi pariatur numquam in fugiat. Officia, dolor quae nihil, deserunt hic molestias cumque maiores temporibus quidem quia ratione vero
+        odio perspiciatis nam neque! Ratione ea molestiae placeat nulla omnis illo aspernatur dolor voluptate labore autem!
+
+    </p>
+    <h3>
+        pay close attention to the flow
+    </h3>
+    <p id="ppp">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt et, inventore natus ab deleniti tempore placeat veritatis, atque voluptatem, eum quas expedita quasi libero accusamus mollitia? Rem maxime eos tempora! Excepturi, incidunt? Architecto eveniet
+        enim natus veniam explicabo dolores nihil voluptatum officia recusandae ex nemo commodi, consequuntur fuga debitis soluta aspernatur asperiores quia dignissimos? Eum laboriosam inventore vel eveniet possimus? Rerum sint praesentium eaque quisquam
+        sunt nam? Quidem fugit ratione unde nesciunt. Doloremque delectus, repudiandae molestiae, veritatis tenetur non sapiente nostrum eveniet dolore dignissimos perferendis veniam, necessitatibus harum enim consequatur. Accusantium veritatis sunt fugit
+        laboriosam voluptatum dicta, voluptatem quae, illum velit facilis, et esse sapiente corrupti odio quasi. Fuga quam atque omnis, dolorum provident mollitia hic inventore exercitationem necessitatibus praesentium. Facere, consequatur amet sunt molestiae
+        debitis quis unde culpa, cumque deserunt at soluta veniam voluptatibus quod ut autem consectetur possimus, non ab voluptatum doloremque. Deleniti consequuntur autem at libero aliquam.
+    </p>
+    <h2>
+        folw of html element
+    </h2>
+    <p id="pp">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus obcaecati explicabo hic commodi necessitatibus dolores qui voluptas? Culpa tempore dicta eius fugit laborum voluptas nesciunt, ducimus eum dignissimos repellat? Quia, aliquid?
+        Delectus eum, commodi beatae molestiae officia deleniti nihil est error harum recusandae dolore fugit ipsam in blanditiis sequi quo! A excepturi officiis non nisi nam, eius velit possimus. Possimus voluptate dignissimos ea, illo culpa consequuntur
+        tenetur ad harum delectus nobis minima, natus quidem corporis explicabo veniam ex exercitationem error voluptatibus rerum? Tenetur nihil aliquid placeat quaerat totam optio? Odit beatae assumenda ipsum officiis dicta cupiditate molestias minima
+        dolore repellat eos. Qui dignissimos animi provident ipsa dolor. Sunt, nam asperiores harum tempora quas et commodi pariatur numquam in fugiat. Officia, dolor quae nihil, deserunt hic molestias cumque maiores temporibus quidem quia ratione vero
+        odio perspiciatis nam neque! Ratione ea molestiae placeat nulla omnis illo aspernatur dolor voluptate labore autem!
+
+    </p>
+    <h3>
+        pay close attention to the flow
+    </h3>
+    <p id="ppp">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt et, inventore natus ab deleniti tempore placeat veritatis, atque voluptatem, eum quas expedita quasi libero accusamus mollitia? Rem maxime eos tempora! Excepturi, incidunt? Architecto eveniet
+        enim natus veniam explicabo dolores nihil voluptatum officia recusandae ex nemo commodi, consequuntur fuga debitis soluta aspernatur asperiores quia dignissimos? Eum laboriosam inventore vel eveniet possimus? Rerum sint praesentium eaque quisquam
+        sunt nam? Quidem fugit ratione unde nesciunt. Doloremque delectus, repudiandae molestiae, veritatis tenetur non sapiente nostrum eveniet dolore dignissimos perferendis veniam, necessitatibus harum enim consequatur. Accusantium veritatis sunt fugit
+        laboriosam voluptatum dicta, voluptatem quae, illum velit facilis, et esse sapiente corrupti odio quasi. Fuga quam atque omnis, dolorum provident mollitia hic inventore exercitationem necessitatibus praesentium. Facere, consequatur amet sunt molestiae
+        debitis quis unde culpa, cumque deserunt at soluta veniam voluptatibus quod ut autem consectetur possimus, non ab voluptatum doloremque. Deleniti consequuntur autem at libero aliquam.
+    </p>
+</body>
+
+</html>

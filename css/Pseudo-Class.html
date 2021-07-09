@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Class</title>
+    <style>
+        a:link{
+            color: blue;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color:green;
+        }
+        a:active{
+
+            color: red;
+        }
+        a:focus{
+            color:pink;
+        }
+        #submit:hover{
+            color:purple;
+        }
+        #submit:visited{
+            color:black;
+        }
+        #submit:active{
+            color:red;
+        }
+        #submit:link{
+            color:blue;
+        }
+    </style>
+</head>
+<!-- 
+    Pseudo-Class
+    It needs : colon
+    focus can over write the active characters
+    for test the focus use tab button to switch the link
+-->
+<body>
+    <h1>Pseudo-Class</h1>
+    <p>This is My <a href="https://www.youtube.com/">YouTube</a>Channel</p><br>
+    <p>This is My <a href="https://www.facebook.com//">Facebook</a>Channel</p><br>
+    <p>This is My <a href="https://www.Instagram.com/">Instagram</a>Page</p><br>
+    <p>This is My <a href="https://www.whatsapp.com/">What's app</a>Page</p><br>
+    <p>This is My <a href="https://www.Teleegram.com/">Teleegram</a>Page</p><br>
+<h3>LogIn Here!</h3>
+<form action="" enctype="multipart/form-data" >
+    <label for="urname">NAME</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="name" id="urname"><br>
+    <label for="urpass">PASSWORD</label>
+    <input type="text" name="urpass" id="urpass"><br><br>
+    <input type="submit" name="smit" id="submit" value="LogIn">
+</form>
+</body>
+</html>

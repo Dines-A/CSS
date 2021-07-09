@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+h1{
+    background-color: tomato;
+}
+p{
+    background-color: teal;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: red;
+    padding:10px  30px;
+    margin: 20px;
+}
+.bg{
+    padding: 20px;
+    background-color: tomato;
+    border: 1px solid black;
+}

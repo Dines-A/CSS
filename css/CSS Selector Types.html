@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Types</title>
+    <style>
+      [title] {
+            color: red;
+        }
+     a[href^="https"]{
+         color: greenyellow;
+     }
+     a[target="_blank"]{
+         background-color: indianred;
+     }
+     img[alt*=arrow]{
+         border: 2px solid red;
+
+     }
+     img[alt~=arrow]{
+         border: 2px solid saddlebrown;
+
+     }
+     a[href$='.doc']{
+         background-color: salmon;
+     }
+     a[href$='.pdf']{
+         background-color: salmon;
+     }
+    
+    </style>
+</head>
+<body>
+    <!--
+         accronym,abbr->[title]
+alt~=icon karadhu oru thani word a irukanum
+    -->
+    <div id="content">
+        <h1>CSS Selector Types</h1>
+<p>
+<accronym title="Docter">Dc</accronym> apdul kalam is the <accronym title="indian space research org">ISRO</accronym>
+<abbr title="dinesh">din</abbr>
+</p>
+<P>
+    this is my social media links
+    <a href="https://www.youtube.com/">youtube</a> <br>
+    <a href="https://www.instagram.com/">instagram</a><br>
+    <a href="http://www.facebook.com/" target="_blank">facebook</a><br>
+    <a href="https://www.telegram.com/">telegram</a><br>
+</P>
+<marquee behavior="  " direction="right">sunny lenone</marquee>
+<p>
+   this icon is  <img src="coding.png" alt="icon-arrow-right">
+     <img src="coding.png" alt="icon-arrow-right">
+     <img src="coding.png" alt="icon-arrow-right">
+   dark blue box
+   <br>
+   this icon is  <img src="coding.png" alt="icon arrow">
+    <img src="coding.png" alt="icon arrow">
+    <img src="coding.png" alt="icon arrow">
+dark green box
+</p>
+<p>
+    download <a href="toc.doc"> table of content image</a> and <a href="work.pdf"> sumaaaa image</a> summa
+
+</p>
+<p>
+    <a href="https://www.google.com/">google</a> and <a href="https://www.google.com/"> gooogle</a>
+
+</p>
+<p>
+    <a id="dummy" href="#">dummy link</a>
+</p>
+    </div>
+</body>
+</html>

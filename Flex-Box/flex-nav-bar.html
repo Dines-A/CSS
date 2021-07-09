@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-nav-bar</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+            text-decoration: none;
+            
+        }
+        body{
+            min-width: 300px;
+        }
+        #container{
+            display: flex;
+            align-content: center;
+            justify-content: flex-end;
+          
+           width: 100%;
+           min-width: 500px;
+           
+        }
+        .flex-container{
+          
+           background-color: khaki;
+            padding: 20px 50px;
+            margin: 0px 2px;
+        }
+        .flex-container:hover{
+            background-color: orange;
+        }
+        @media screen and (max-width:1444px){
+
+            #container{
+                align-content: center;
+                flex-direction: column;
+               justify-content: center;
+             
+              
+               
+               
+            }
+
+            .flex-container{
+                justify-content: center;
+                text-align: center;
+                width: 50%;
+                height: 50px;
+                line-height: 50px;
+                padding-top: 20px;
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>flex-box</h2> 
+    <div id="container">
+              
+    <div class="flex-container"><a href="#">box 1</a></div>
+    <div class="flex-container"><a href="#">box 2</a></div>
+    <div class="flex-container"><a href="#">box 3</a></div>
+    <div class="flex-container"><a href="#">box 4</a></div>
+    <div class="flex-container"><a href="#">box 5</a></div>
+    <div class="flex-container"><a href="#">box 6</a></div>
+    <div class="flex-container"><a href="#">box 7</a></div>
+    <div class="flex-container"><a href="#">box 8</a></div>
+    <div class="flex-container"><a href="#">box 9</a></div>
+    <div class="flex-container"><a href="#">box 10</a></div>
+</div>
+</body>
+</html>

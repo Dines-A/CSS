@@ -1,0 +1,9 @@
+body{
+    background-color: blue;
+}
+.bg-success{
+    background-color: darkgreen;
+}
+tr,td{
+    padding: 20px;
+}

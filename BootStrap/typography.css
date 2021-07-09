@@ -1,0 +1,19 @@
+body{
+    background-color: khaki;
+}
+#wrapper{
+    background-color: tomato;
+}
+#container{
+    background-color: teal;
+    border: 1px solid red;
+}
+.padding{
+    border: 1px solid black;
+}
+li{
+    background-color: violet;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+
+}
+body p{
+    color: white;
+}
+.grid-layout{
+    border: 1px solid red;
+}
+.bg{
+    border: 1px solid green;
+    background-color: teal;
+}

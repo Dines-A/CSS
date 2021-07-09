@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Radius</title>
+</head>
+<body>
+    <h1>Border-Radius</h1>
+    <style>
+        body{
+            background-color: red;
+        }
+        div{
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 20px auto;
+            padding: 8px;
+        }
+        #topleft{
+            box-shadow: -2px -10px black;
+            border-radius: 10px;
+        }
+        #bottomright {
+            box-shadow: 2px 10px black;
+            border-radius: 10px 5px;
+        }
+        #bottomrightspread{
+            box-shadow: 2px 10px 50px 10px black;
+            border-top-left-radius:10px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 40px;
+        }
+        #outerspread{
+            box-shadow: 4px 4px white;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        #Inset{
+            box-shadow:inset 0px 0px 0px 2px gold ;
+            border-radius: 100px;
+            line-height: 100px;
+            
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="topleft">Top Left</div>
+    <div id="bottomright">Bottom Right</div>
+    <div id="bottomrightspread">Bottom Right Spread</div>
+    <div id="outerspread">Outer Spread</div>
+    <div id="Inset">Inset</div>
+    </div>
+</body>
+</html>

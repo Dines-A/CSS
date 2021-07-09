@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5\js\Jquery\jquery.min.js"></script>
+    
+</head>
+<body>
+
+   <div class="container">
+       <h3>
+           From creation
+       </h3>
+    <div class="row my-5">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178510024379!2d55.272187715469244!3d25.197201837882655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1622217802278!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mt-5 mt-sm-5 mt-md-0 mt-lg-0">
+            <div class="card">
+                <div class="card-header">
+                    <h3>
+                        contact
+                    </h3>
+
+                </div>
+                <form action="#" method="post">
+                    <div class="card-body">
+                        <div class="form-group my-3">
+                            <label for="name">Name</label>
+                            <input type="text"  class="form-control mt-2" name="username" id="name" placeholder="Enter your name" >
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="number">Number</label>
+                            <input type="number" class="form-control mt-2" name="usernumber" id="number" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="email">E-mail</label>
+                            <input type="email"  class="form-control mt-2" name="useremail" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="from-group my-3 ">
+                            <label for="mysocial">social_media</label>
+                            <select name="social_media" id="mysocial" class="form-control mt-2 ">
+                                <option value="__select__" >__select__</option>
+                                <option value="instagram" >instagram</option>
+                                <option value="facebook" >facebook</option>
+                                <option value="twitter" >twitter</option>
+                            </select>
+                        </div>
+                        <div class="from-group my-3">
+                            <label for="text-area">comments</label>
+                            <textarea name="comments" id="text-area"   class="form-control mt-2" ></textarea>
+                        </div>
+                        <div class="from-group">
+                            <div class="from-check">
+                                <input type="checkbox" name="agreements" id="accept" class="from-controll">
+                                <label for="accept" class="from-check-label"> i accept the term and contitions</label>
+                            </div>
+                        </div>
+                       <div class="form-group d-grid">
+                        <button type="submit" class="btn btn-primary ">submit</button>
+                       </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <!-- 
+        
+        
+        
+    -->
+    
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px; 
+
+            /*    global selector
+             it will apply to the hole element 
+                if you want to add some margin or padding you can add then to the element personaly
+            */
+                   }
+        @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+        body{
+            background-color: blue;
+            font-size: 25px;
+            font-family: 'Girassol', cursive;
+            
+        }
+        #wrapper>p{
+            /* id for selected element
+             #wrapper>p ->it will give the background to page which only inside in wrapper div
+         it won't goive the background to other element in wraper div
+            */
+
+            background-color:green;
+        }
+        #wrapper>h1{
+            background-color:red;
+        }
+        .h1class{
+            /* class for selected group of element */
+            font-size: 100px;
+        }
+       
+        h2+p{
+             /* adjacent sibiling selector
+             it will only under line the 1 paga next to the h1 element 
+              it won't be apply for the second paragraph
+            
+             
+             */
+            text-decoration: underline;
+            margin: 20px;
+            padding-left: 12px;
+        }
+
+        h1~p{
+            /* general sibiling selector
+            it will affect the para next to the h1 tag
+            */
+            text-shadow: 5px 5px 5px red;
+
+        }
+        a{
+            color:red;
+        }
+        li a{
+            text-decoration: none;
+        }
+        #wrapper>li>a {
+            /* not working*/
+            font-size: 100px;
+        }
+        li+ul a{
+            margin: 50px;
+            color: black;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="h1id">
+            Selector id
+        </h1>
+
+        <h1 class="h1class">
+            Selector class
+           
+        </h1>
+        <h1 class="h1class">
+            Selector class 2.0
+           
+        </h1>
+
+        <ul>
+            <li><a href="#">home</a></li>
+            <ul>
+                <li><a href="#">furniture</a></li>
+                <li><a href="#">sofa</a></li>
+                <li><a href="#">tv</a></li>
+            </ul>
+            <li><a href="#">phone</a></li>
+            <ul>
+                <li><a href="#">iphone</a></li>
+                <li><a href="#">samsung</a></li>
+                <li><a href="#">realme</a></li>
+            </ul>
+
+            <li><a href="#">laptop</a></li>
+            <ul>
+                <li><a href="#">asus</a></li>
+                <li><a href="#">dell</a></li>
+                <li><a href="#">hcl</a></li>
+            </ul>
+           
+        </ul>
+        <h2>
+            h1+p
+        </h2>
+        <p>
+            <a href="#">oooooooooooooooooooooooooooooooooo</a>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, sed laborum debitis adipisci dolore placeat ratione laboriosam atque, velit tempora eos fugiat veniam accusamus vel dignissimos possimus explicabo quidem nisi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur ipsam nemo rem! Blanditiis, facere sint hic dolor fuga ipsam illum similique rerum! Ut, in consequuntur. Quos voluptas consequuntur quaerat?
+            Doloremque hic suscipit necessitatibus debitis animi repudiandae, quasi sed? Et adipisci consectetur distinctio neque reprehenderit sunt cum mollitia recusandae porro. Adipisci debitis repellendus neque tenetur. Commodi deleniti explicabo expedita autem.
+            Fugit illum perspiciatis consectetur eveniet ratione blanditiis minus, nobis expedita hic voluptas autem ea unde omnis? Voluptate, exercitationem repudiandae? Quam dolore tempore quisquam libero nulla aut consequuntur pariatur sequi quod.
+            Culpa rem quia possimus nulla quam eos dignissimos odio voluptatum in praesentium temporibus quaerat quo itaque asperiores voluptates, neque optio nisi consectetur suscipit a ad aliquid iure. Explicabo, eos tempore?
+            Repellendus quaerat laboriosam provident quia inventore, quas cumque, assumenda maxime blanditiis illum exercitationem quae minima. Esse officia similique reprehenderit consequuntur, explicabo pariatur eius. Aspernatur ducimus excepturi, fuga adipisci veniam tenetur.
+            Magni ipsam labore in incidunt omnis ipsum, error id voluptate exercitationem fuga quo, a magnam consequatur. Culpa tempore sint incidunt, eaque, fugiat, non velit odio placeat temporibus aut dolorem adipisci.
+            Doloribus recusandae quasi tempore quibusdam similique deleniti ex tenetur exercitationem magnam. Cum maiores saepe iure quibusdam nulla recusandae exercitationem aut accusamus doloribus veniam magnam quos, qui error rerum cumque est.
+            Harum consectetur tenetur suscipit esse perspiciatis nemo dolor mollitia distinctio, ut quos voluptas repudiandae eos sint, amet incidunt dolores vel. Debitis provident molestias vitae facere quas iste perferendis repellendus ullam?
+            Quis molestiae, nam et optio saepe porro nesciunt neque consequuntur repellendus magnam animi ut perferendis dicta consectetur magni corporis praesentium ipsam! Labore, minima quo! Dolore molestias molestiae distinctio quisquam ab?
+            Iure, cumque perferendis! Reprehenderit quo accusamus consequuntur laudantium hic consectetur consequatur, deserunt eius necessitatibus, minus fugiat exercitationem autem officia alias magnam aliquid laborum porro facere quae corporis delectus pariatur eveniet!
+        </p>
+
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, sed laborum debitis adipisci dolore placeat ratione laboriosam atque, velit tempora eos fugiat veniam accusamus vel dignissimos possimus explicabo quidem nisi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur ipsam nemo rem! Blanditiis, facere sint hic dolor fuga ipsam illum similique rerum! Ut, in consequuntur. Quos voluptas consequuntur quaerat?
+            Doloremque hic suscipit necessitatibus debitis animi repudiandae, quasi sed? Et adipisci consectetur distinctio neque reprehenderit sunt cum mollitia recusandae porro. Adipisci debitis repellendus neque tenetur. Commodi deleniti explicabo expedita autem.
+            Fugit illum perspiciatis consectetur eveniet ratione blanditiis minus, nobis expedita hic voluptas autem ea unde omnis? Voluptate, exercitationem repudiandae? Quam dolore tempore quisquam libero nulla aut consequuntur pariatur sequi quod.
+            Culpa rem quia possimus nulla quam eos dignissimos odio voluptatum in praesentium temporibus quaerat quo itaque asperiores voluptates, neque optio nisi consectetur suscipit a ad aliquid iure. Explicabo, eos tempore?
+            Repellendus quaerat laboriosam provident quia inventore, quas cumque, assumenda maxime blanditiis illum exercitationem quae minima. Esse officia similique reprehenderit consequuntur, explicabo pariatur eius. Aspernatur ducimus excepturi, fuga adipisci veniam tenetur.
+            Magni ipsam labore in incidunt omnis ipsum, error id voluptate exercitationem fuga quo, a magnam consequatur. Culpa tempore sint incidunt, eaque, fugiat, non velit odio placeat temporibus aut dolorem adipisci.
+            Doloribus recusandae quasi tempore quibusdam similique deleniti ex tenetur exercitationem magnam. Cum maiores saepe iure quibusdam nulla recusandae exercitationem aut accusamus doloribus veniam magnam quos, qui error rerum cumque est.
+            Harum consectetur tenetur suscipit esse perspiciatis nemo dolor mollitia distinctio, ut quos voluptas repudiandae eos sint, amet incidunt dolores vel. Debitis provident molestias vitae facere quas iste perferendis repellendus ullam?
+            Quis molestiae, nam et optio saepe porro nesciunt neque consequuntur repellendus magnam animi ut perferendis dicta consectetur magni corporis praesentium ipsam! Labore, minima quo! Dolore molestias molestiae distinctio quisquam ab?
+            Iure, cumque perferendis! Reprehenderit quo accusamus consequuntur laudantium hic consectetur consequatur, deserunt eius necessitatibus, minus fugiat exercitationem autem officia alias magnam aliquid laborum porro facere quae corporis delectus pariatur eveniet!
+        </p>
+    </div>
+
+
+</body>
+</html>

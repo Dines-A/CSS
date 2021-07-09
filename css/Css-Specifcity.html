@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Specifcity</title>
+    <!--
+        refer video
+
+
+
+       1. style attribute -most specific__________>>1000's
+       2.ID                                 __________>>100's
+       3. class , pseudo-class, attribute selector   __________>>10's
+       4.element, pseudo-elements  -least specific           __________>>1's
+
+    -->
+    <style>
+        a{
+            color:blue;
+        }
+        div ul li a{
+            color: yellow;
+        }
+        #nav a{
+            color: tomato;
+        }
+        ul li a{
+            color: cadetblue;
+        }
+        li a{
+            color: green;
+        }
+        ul a{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div id="page"> 
+    <h1>Css-Specifcity</h1>
+    <p class="note"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolore cumque dignissimos maxime accusamus explicabo! Impedit expedita quis dignissimos omnis veniam corrupti possimus, quaerat iusto rem praesentium voluptatem asperiores itaque.
+    A quisquam temporibus deserunt, voluptatibus magnam ratione consequuntur hic quibusdam! Expedita dolorem minus numquam doloremque soluta officia, omnis odio deserunt ullam, assumenda quam provident incidunt rem est eligendi illo doloribus. </p>
+<h2>main nav</h2>
+<ul id="nav">
+    <li><a href="#" style="color: black;">home</a></li>
+    <li><a href="#">about</a></li>
+    <ul>
+        <li>
+            <a href="#">dinesh</a>
+
+        </li>
+        <li><a href="#">rgd</a></li>
+    </ul>
+    <li>
+        <a href="#">dummy1</a>
+    </li>
+    <li>
+        <a href="#">dummy1</a>
+    </li>
+</ul>
+<h3>
+    section heading
+</h3>
+<p>
+    <a href="#">dummy para</a>
+</p>
+</div>
+</body>
+</html>

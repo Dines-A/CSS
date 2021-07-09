@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5\js\Jquery\jquery.min.js"></script>
+    
+</head>
+<body>
+
+   <div class="container">
+       <h3>
+           From creation
+       </h3>
+    <div class="row my-5">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mt-5 mt-sm-5 mt-md-0 mt-lg-0">
+            <div class="card">
+                <div class="card-header ">
+                    <h3>
+                        contact
+                    </h3>
+
+                </div>
+                <form action="#" method="post">
+                    <div class="card-body ">
+                        <div class="form-group my-3">
+                            <label for="name">Name</label>
+                            <input type="text"  class="form-control mt-2" name="username" id="name" placeholder="Enter your name" >
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="number">Number</label>
+                            <input type="number" class="form-control mt-2" name="usernumber" id="number" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="email">E-mail</label>
+                            <input type="email"  class="form-control mt-2" name="useremail" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="from-group my-3 ">
+                            <label for="mysocial">social_media</label>
+                            <select name="social_media" id="mysocial" class="form-control mt-2 ">
+                                <option value="__select__" >__select__</option>
+                                <option value="instagram" >instagram</option>
+                                <option value="facebook" >facebook</option>
+                                <option value="twitter" >twitter</option>
+                            </select>
+                        </div>
+                        <div class="from-group my-3">
+                            <label for="text-area">comments</label>
+                            <textarea name="comments" id="text-area"   class="form-control mt-2" ></textarea>
+                        </div>
+                        <div class="from-group my-3">
+                            <div class="from-check">
+                                <input type="checkbox" name="agreements" id="accept" class="from-controll">
+                                <label for="accept" class="from-check-label"> i accept the 
+                                    <!-- modal link -->
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal" >term and contitions</a>
+                                </label>
+                            </div>
+                        </div>
+                       <div class="form-group d-grid">
+                        <button type="submit" class="btn btn-primary ">submit</button>
+                       </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+            <div class="modal fade" id="mymodal" data-bs-backdrop="static" data-bs-keyboard="false"> <!--data-bs-backdrop="static" it won't allow you to by clicking other places without esc  -->
+                <div class="modal-dialog modal-dialog-centered"> <!-- model-dialog-scrolable -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                           
+                            <div class="modal-title">
+                                <h2>terms and contitions</h2>
+                            </div>
+                             <!-- btn-close -->
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                        </div>    
+                            <div class="modal-body ">
+                                <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quisquam saepe ipsam sit consectetur pariatur. Laborum quam, amet totam vero debitis praesentium nihil nesciunt sapiente repellendus. Exercitationem beatae incidunt 
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                              <!-- button-close -->
+                              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Close</button>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+                <ul class="list-group w-50 list-group-horizontal text-center">
+                   
+                        <a href="#" class="list-group-item bg-primary" data-bs-toggle="modal" data-bs-target="#mymodal1" >dinesha</a>
+                        <a href="#"  class="list-group-item"  data-bs-toggle="modal" data-bs-target="#mymodal2" >dineshaa</a>
+                        <a href="#"  class="list-group-item" data-bs-toggle="modal" data-bs-target="#mymodal3" >dineshaaa</a>
+                        <a href="#"  class="list-group-item" data-bs-toggle="modal" data-bs-target="#mymodal4" >dineshaaaa</a>
+                        <a href="#"  class="list-group-item"  data-bs-toggle="modal" data-bs-target="#mymodal5" >dineshaaaaa</a>
+                </ul>
+            
+           
+         
+          
+            
+          
+
+            <!-- user-1 -->
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            User
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4" >
+                                    <img src="icon-male-40.png" class="w-100" alt="user avator" >
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check">
+                                        <p>
+                                            name
+                                        </p>
+                                        <input type="text" name="user" id="aa">
+                                        <p>
+                                            mail
+                                        </p>
+                                        <input type="mail" name="user" id="aa"><br><br>
+                                        
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- user-2 -->
+            <div class="modal" id="mymodal2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            User
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4" >
+                                    <img src="icon-male-40.png" class="w-100" alt="user avator" >
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check">
+                                        <p>
+                                            name
+                                        </p>
+                                        <input type="text" name="user" id="aa">
+                                        <p>
+                                            mail
+                                        </p>
+                                        <input type="mail" name="user" id="aa"><br><br>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- user-3 -->
+            <div class="modal" id="mymodal3">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            User
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4" >
+                                    <img src="icon-male-40.png" class="w-100" alt="user avator" >
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check">
+                                        <p>
+                                            name
+                                        </p>
+                                        <input type="text" name="user" id="aa">
+                                        <p>
+                                            mail
+                                        </p>
+                                        <input type="mail" name="user" id="aa"><br><br>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- user-4 -->
+            <div class="modal" id="mymodal4">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            User
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4" >
+                                    <img src="icon-male-40.png" class="w-100" alt="user avator" >
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check">
+                                        <p>
+                                            name
+                                        </p>
+                                        <input type="text" name="user" id="aa">
+                                        <p>
+                                            mail
+                                        </p>
+                                        <input type="mail" name="user" id="aa"><br><br>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- user-5 -->
+            <div class="modal" id="mymodal5">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            User
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4" >
+                                    <img src="icon-male-40.png" class="w-100" alt="user avator" >
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check">
+                                        <p>
+                                            name
+                                        </p>
+                                        <input type="text" name="user" id="aa">
+                                        <p>
+                                            mail
+                                        </p>
+                                        <input type="mail" name="user" id="aa"><br><br>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   </div>
+</body>
+</html>

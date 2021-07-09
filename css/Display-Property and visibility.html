@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-Property and Visibility</title>
+    <!-- 
+        #hide{
+            display: none;
+        }
+    if you want to block lel element act as inline element use display : inline
+    if that inline element need tot take height witdh use display : inline-block
+    -->
+    <style>
+        body{
+            background-color: rgb(73, 71, 71);
+        }
+        ul{
+            background-color: red;
+            height: 30px;
+            padding:  0px 20px;
+        }
+        li{
+
+            display: inline-block;
+            height: 30px;
+            padding:  0px 12px;
+            line-height: 30px;
+            margin: 0px 5px;
+            background-color: red;
+           
+        }
+        li:hover{
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: white;
+        }
+        #displaynone{
+            display: none;
+        }
+        #visibility{
+            visibility: hidden;
+        }
+
+    </style>
+    <!--
+         #visibility{
+            visibility: hidden;
+        }
+       login page create panadhuku appro visibillity : visible koduthu continue panala
+    -->
+</head>
+<body>
+    <h1>Display-Property</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contect</a></li>
+        <li><a href="#">Tech  </a></li>
+        <li><a href="#">Course</a></li>
+        <li id="displaynone"><a href="#">Members</a></li>
+        <li id="visibility"><a href="#">LogIn</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</body>
+</html>

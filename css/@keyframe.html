@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@keyframe</title>
+<style>
+    .h1{
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    background-color: red; 
+    animation-name: example;
+    animation-duration: 5s; 
+    transition: width 2s, height 4s;
+    }
+    .h1:hover{
+        width: 900px;
+        height: 600px;
+    }
+    @keyframes example {
+       0%{
+           background-color: rgb(241, 20, 20);
+       }
+       20%{
+           background-color: rgb(235, 138, 12);
+       }
+       30%{
+           background-color: rgb(30, 241, 11);
+       }
+       50%{
+           background-color: rgb(6, 60, 240);
+       }
+       60%{
+           background-color: rgb(234, 20, 241);
+       }
+       75%{
+           background-color: rgb(235, 12, 68);
+       }
+       90%{
+           background-color: rgb(241, 11, 11);
+       }
+       100%{
+           background-color: rgb(6, 240, 18);
+       }
+       
+    }
+</style>
+</head>
+<body>
+    <div class="h1">
+        <h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet iste ducimus consequatur atque illum molestias consequuntur tempora sint ipsum qui, necessitatibus illo voluptatibus fugiat animi exercitationem perspiciatis labore tenetur adipisci?
+        </h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow</title>
+    <!-- 
+        valuse
+        if first value + ,it for right 
+        if first value -,it for left
+
+        if sceond value + it for bottom
+        if second value -,it for top
+
+        theird value for blure
+
+        fourth value for spread
+    -->
+    <style>
+        body{
+            background-color: red;
+        }
+        div{
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 20px auto;
+            padding: 8px;
+        }
+        #topleft{
+            box-shadow: -2px -10px black;
+        }
+        #bottomright {
+            box-shadow: 2px 10px black;
+        }
+        #bottomrightspread{
+            box-shadow: 2px 10px 50px 10px black;
+        }
+        #outerspread{
+            box-shadow: 0px 0px  5px white;
+        }
+        #Inset{
+            box-shadow:inset 0px 0px 0px 2px gold ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Shadow</h1>
+    <div id="topleft">Top Left</div>
+    <div id="bottomright">Bottom Right</div>
+    <div id="bottomrightspread">Bottom Right Spread</div>
+    <div id="outerspread">Outer Spread</div>
+    <div id="Inset">Inset</div>
+    </div>
+</body>
+</html>

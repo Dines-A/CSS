@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav & tabs</title>
+            <!-- boot-css -->
+            <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+            <!-- boot-js -->
+            <script src="bootstrap-5/js/bootstrap.min.js"></script>
+            <!-- boot js js -->
+            <script src="bootstrap-5\js\Jquery\jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            nav & tabs
+        </h2>
+        <!-- type-1  -->
+        <ul class="nav border my-5">
+            <li class="nav-item">
+                <a href="#" class="nav-link">web design</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">web development</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">app design</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">app development</a>
+            </li>
+        </ul>
+        <!-- type-2 -->
+        <nav class="nav border  flex-column flex-sm-row nav-justified "> <!-- nav-justified -->
+            
+
+            <a href="#" class="nav-link" >web design</a>
+
+
+            <a href="#" class="nav-link" >web development</a>
+
+            <a href="#" class="nav-link" >app design</a>
+
+
+            <a href="#" class="nav-link" >app development</a>
+        </nav>
+
+
+        <nav class="nav border nav-pills my-5  flex-column flex-sm-row  ">  
+            
+            <!-- nav-tabs try this instead of nav-pills tabindex="-1"         -->
+            
+
+            <a href="#" class="nav-link active" >web design</a>
+
+
+            <a href="#" class="nav-link" >web development</a>
+
+            <a href="#" class="nav-link" >app design</a>
+
+
+            <a href="#" class="nav-link" >app development</a>
+
+            <a href="#" class="nav-link disabled "tabindex="-1" > AL and ML</a>
+        </nav>
+
+          <!-- tabs active -->
+
+        <ul class="nav nav-tabs mb-5" role="tablist">
+
+            <li class="nav-item" >
+
+              <button class="nav-link active"  data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" >Home</button>
+
+            </li>
+
+            <li class="nav-item" >
+
+              <button class="nav-link"  data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab">Profile</button>
+
+            </li>
+            <li class="nav-item" >
+
+              <button class="nav-link"  data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab">Contact</button>
+
+            </li>
+
+          </ul>
+
+
+
+          <div class="tab-content">
+
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt possimus dignissimos debitis? Rem, nobis maxime cupiditate 
+                 sit vitae animi ipsam ducimus accusantium tempore consequatur consectetur sed quaerat odit autem odio! ...</div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" >
+                ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi dolorum magni blanditiis veniam sed beatae, odit ab 
+            consequuntur tempore provident voluptate veritatis commodi illum laboriosam, totam corrupti architecto voluptates reiciendis. </div>
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" >
+                ...  ... ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat saepe nam omnis odio aspernatur eveniet 
+            est? Temporibus quam, nobis ex modi aperiam libero culpa, explicabo qui, repellendus harum debitis?</div>
+
+          </div>
+    </div>
+</body>
+</html>

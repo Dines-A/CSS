@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box-2.0</title>
+    <style>
+     body{
+        
+        width: 100%;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         overflow-x: hidden;
+     }
+        header{
+           border: 1px solid black;
+            background-color: red;
+           width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        footer{
+           
+           border: 1px solid black;
+            background-color: green;
+           width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        .main-menu{
+         
+            background-color: orange;
+           
+            padding: 20px;
+            text-align: center;
+        }
+        .contant{
+            
+           border: 1px solid black;
+            background-color: tomato;
+          
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar{
+           
+           border: 1px solid black;
+            background-color: khaki;
+           
+            padding: 20px;
+            text-align: center;
+        }
+        #main{
+            display: flex;
+            text-decoration: none;
+            width: 100%;
+            
+        }
+
+        .contant{
+           border: 1px solid black;
+            flex-grow: 2;
+            text-align: justify;
+            padding: 0px 20px ;
+           
+        }
+        .main-menu{
+            flex-basis: 400px;
+            padding: 20px;
+           border: 1px solid black;
+        }
+        .sidebar{
+           border: 1px solid black;
+            flex-basis: 400px;
+            padding: 20px;
+           border: 1px solid black;
+        }
+        ul {
+            padding-left: 0px;
+           margin-top: 50px;
+        }
+        li{
+            margin: 5px ;
+            padding: 5px;
+            list-style-type:none;
+            border: 1px solid black;
+            width: 50px;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        h2{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        header
+    </header>
+    <div id="main">
+        <section class="main-menu">
+            <h2>
+                main-menu
+            </h2>
+       
+        <ul>
+            <li><a href="#">box 1</a></li>
+            <li><a href="#">box 2</a></li>
+            <li><a href="#">box 3</a></li>
+            <li><a href="#">box 4</a></li>
+            <li><a href="#">box 5</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">box 1</a></li>
+            <li><a href="#">box 2</a></li>
+            <li><a href="#">box 3</a></li>
+            <li><a href="#">box 4</a></li>
+            <li><a href="#">box 5</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">box 1</a></li>
+            <li><a href="#">box 2</a></li>
+            <li><a href="#">box 3</a></li>
+            <li><a href="#">box 4</a></li>
+            <li><a href="#">box 5</a></li>
+        </ul>
+    </section>
+        <section class="contant">
+           <h2>contant</h2>
+       
+           
+        <p>
+            distinctio nisi debitis. Error reiciendis amet harum itaque rerum asperiores nesciunt eius veritatis tempore nam. Id ducimus quas, dolorem quia enim perferendis doloremque ex nesciunt nobis accusamus adipisci ipsam.
+            Atque earum eos eius est officiis quaerat possimus qui veniam mollitia repellat voluptas architecto dolor quisquam, eveniet cum eaque amet. Unde consequuntur exercitationem recusandae vitae quis necessitatibus voluptatibus aliquid in?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolore obcaecati ut quo, aliquid omnis sed minima rerum autem, ex commodi tenetur similique alias suscipit inventore facere porro magni reiciendis?
+            Tenetur soluta adipisci eveniet dicta atque nam minima deserunt voluptate ipsa necessitatibus quae eaque nemo quos facere aliquam ea, itaque fuga asperiores odit illo pariatur magnam laboriosam. Et, repellendus. Nemo!
+            Nihil, hic nostrum perspiciatis beatae assumenda delectus cum harum dicta tempora iure minus? Est quisquam aspernatur dolores ducimus voluptatum eum, libero dolore labore quod fugit inventore quasi quos ad fugiat!
+            Illum corrupti accusamus, eos, distinctio cum quae ut beatae repellat repudiandae dolorem porro ab deleniti qui hic deserunt obcaecati, excepturi error pariatur quibusdam nobis architecto. Veniam perferendis ipsam unde sapiente?
+            Pariatur, quam. Consectetur iure reprehenderit accusantium repudiandae est nam laudantium praesentium expedita officiis, quos ullam. Nemo ab quasi sequi saepe ex accusamus aliquid eius adipisci nam, ullam quis mollitia. Animi.
+        
+          lor reiciendis facere quisquam!
+            Ad porro iure, suscipit dolorum voluptas repellendus facere atque quos. Asperiores, libero. Consequatur facere impedit quo dicta molestiae omnis, commodi iusto similique ducimus, voluptatem rem architecto, molestias ea illo nostrum.
+            Obcaecati nesciunt exercitationem doloremque suscipit maxime commodi! Alias sit fugiat in molestias libero dolorum totam quasi officiis sint error, nobis voluptate similique dolores iure et dicta doloremque earum rerum voluptatum.
+            Fuga consectetur dolore quasi sed accusantium similique, commodi, cum reiciendis consequatur quaerat beatae vitae recusandae quo tenetur iste repellendus, aut porro minus fugiat suscipit! Vero sit ad culpa non quia.
+            Necessitatibus aut laudantium nam provident. Sed molestias laudantium rerum non commodi dolore magnam reiciendis eius. Enim possimus debitis temporibus amet ea provident tenetur, culpa quae modi minima, impedit sapiente quam?
+            Eveniet fugiat perspiciatis aspernatur officia. Non, hic obcaecati dicta dolores modi quod sed reiciendis voluptas magni quaerat. Ducimus, odio. Nemo veniam vero sequi, ut iusto atque sint natus at voluptatum!
+            Temporibus nisi minus eius praesentium earum molestias quod illum libero ex adipisci nihil suscipit maxime, perspiciatis corrupti natus fugiat cumque voluptates nobis consequatur mollitia voluptatibus, ipsa repudiandae? Repellat, perferendis iusto.
+            Rerum beatae, minima iusto ipsa sapiente molestias repellat mollitia vel in cumque aut nemo alias corporis illum. Velit, fuga voluptatem. Esse, quod quasi quia dolor vitae expedita quam necessitatibus doloribus?
+            Asperiores iure in rerum nostrum ipsa consequatur reiciendis fuga ratione. Distinctio, iusto incidunt. Asperiores laboriosam esse minima voluptatum officia nihil in, dolore tempore. Deleniti incidunt sint porro dolorum ipsum odit?
+            Enim reprehenderit id odio repudiandae odit dolorem, harum rem ea voluptate, dolorum aliquam pariatur illo nulla omnis quas. Doloremque ex dolores laboriosam beatae labore cupiditate magni, eveniet ut dolor in.
+            Quo quasi dolore quisquam libero eaque ad deserunt harum repudiandae cupiditate. Similique recusandae ipsam, quibusdam id quae neque rerum corporis blanditiis obcaecati error animi labore ex! Nesciunt dolorem ex amet.
+            Repellat animi, consequatur temporibus unde veritatis cum, error alias illo ad facilis debitis, quo quidem repellendus consectetur nemo ducimus quis magnam explicabo? Voluptas, nulla consectetur? Deleniti minus eveniet at impedit.
+            Nobis tenetur, omnis saepe minus similique in quasi quia laudantium aspernatur veritatis nisi fugiat, eos provident quo, rerum nesciunt quas reiciendis pariatur? Obcaecati ipsa dolor similique repellendus quam illo quibusdam.
+            Placeat sit temporibus, corrupti aliquid illo culpa id voluptas eius nisi, qui ad ut, adipisci cum vel maiores aut. Itaque id sit odit odio illo consequuntur earum placeat mollitia accusamus?
+            Distinctio repellat soluta enim nulla laudantium aspernatur maiores mollitia officiis aut recusandae ex eveniet at tempora dicta, aliquid doloribus magni autem! Quasi, quibusdam doloremque tenetur fugit aperiam nihil vitae fugiat.
+            Deserunt consectetur a debitis consequatur minima natus nisi aliquid rerum dolor vel atque at quidem adipisci, eveniet eos ex tempora maxime, culpa quibusdam qui commodi voluptatum? Non ipsa aperiam dicta?
+            Impedit voluptatem et, error sapiente, sequi enim totam laboriosam, dignissimos nisi repellat deleniti inventore veniam sunt. Rem aliquam cupiditate eligendi ducimus aperiam quibusdam non veritatis, doloremque debitis, porro, nisi sequi.
+            Ut nesciunt voluptatem laudantium optio facere incidunt quas accusamus fuga delectus repudiandae quod ipsum rem architecto deserunt voluptas labore sunt ex dignissimos porro dolor, est placeat maiores nemo? Velit, sunt.
+            Quos natus accusamus odit nemo reiciendis reprehenderit ad sunt recusandae velit voluptas neque corporis ullam ea et dolorum cupiditate at atque, qui nulla eius est eos incidunt fuga. Laborum, repudiandae!
+        </p>
+        </section>
+        <section class="sidebar">
+          <h2>  sidebar</h2>
+          <ul>
+              <li><a href="#">box 1</a></li>
+              <li><a href="#">box 2</a></li>
+              <li><a href="#">box 3</a></li>
+              <li><a href="#">box 4</a></li>
+              <li><a href="#">box 5</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">box 1</a></li>
+            <li><a href="#">box 2</a></li>
+            <li><a href="#">box 3</a></li>
+            <li><a href="#">box 4</a></li>
+            <li><a href="#">box 5</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">box 1</a></li>
+            <li><a href="#">box 2</a></li>
+            <li><a href="#">box 3</a></li>
+            <li><a href="#">box 4</a></li>
+            <li><a href="#">box 5</a></li>
+        </ul>
+        </section>
+    </div>
+    <footer>
+        footer
+    </footer>
+</body>
+</html>

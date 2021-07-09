@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROP-DOWN-MENU</title>
+    <style>
+        *{
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        #wrapper{
+            display: flex;
+        }
+ul{
+    background-color: khaki;
+    height: 50px;
+}
+ ul li{
+    float: left;
+    list-style-type: none;
+    height: 50px;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    line-height: 50px;
+    background-color: tomato;
+}
+li:hover{
+    background-color: teal;
+}
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <ul>
+        <li>home</li>
+        <li>course
+            <ul>
+                <li>
+                    html
+                </li>
+                <li>
+                    css
+                </li>
+                <li>
+                    js
+                </li>
+            </ul>
+        </li>
+        <li>about</li>
+        <li>sub</li>
+        <li>contact-us</li>
+    </ul>
+</div>
+
+</body>
+</html>
